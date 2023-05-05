@@ -1,0 +1,94 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #8758ff;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.container{
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  background-size: cover;
+}
+
+.box{
+  margin:auto;
+  min-width: max(300px, 25%);
+  max-width: max(40%, 300px);
+  min-height: max(500px, 60%);
+  background: #1A1A40;
+  border-radius: 6px;
+  padding: 10px;
+}
+
+.header{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.header input{
+  width: 75%;
+  height: 30px;
+  background: #1A1A40;
+  border: 1px solid #8758ff;
+  outline: none;
+  padding: 0px 10px;
+  color: #fff;
+}
+
+.header button{
+  height: 30px;
+  width: 25%;
+  padding: none;
+  color: white;
+  border: none;
+  background: #8758ff;
+  cursor: pointer;
+}
+
+.tasks{
+  color: #fff;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 10px;
+}
+
+.task{
+  margin-top: 10px;
+  background-color: #8758ff;
+  width: 100%;
+  min-height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align: left;
+  border-radius: 3px;
+}
+
+.task p{
+  padding: 0px 10px;
+}
+
+.icons{
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.icon{
+  cursor: pointer;
+  height: 17px;
+  width: 17px;
+  padding: 20px;
+}
